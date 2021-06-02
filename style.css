@@ -176,18 +176,18 @@ body {
 }
 
 .character {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 20px;
-    width: 150px;
     height: 268px;
 }
 
 .player1 .character {
-    left: 60px;
 }
 
 .player2 .character {
-    right: 60px;
 }
 
 .player2 .character img {
